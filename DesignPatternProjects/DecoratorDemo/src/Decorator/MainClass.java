@@ -25,7 +25,6 @@ public class MainClass {
 		
 		System.out.println(sandwich.getContents());
 		System.out.println("Total Price: "+sandwich.getPrice());
-		
 	}
 
 }
