@@ -8,7 +8,7 @@ public class MainClass {
 		// TODO Auto-generated method stub
 		Sandwich sandwich=new BasicSandwich();
 		Scanner sc = new Scanner(System.in);   
-		System.out.print("SELECT YOUR SANDWICH:\n 1- No Additionals \n 2- Add Cheese \n 3- Add Ranch Sauce \n 4- Add Lettuce \n 5- End \n");  
+		System.out.print("DO YOU WANT ADD ANY ADDITIONS:\n 1- No Additionals \n 2- Add Cheese \n 3- Add Ranch Sauce \n 4- Add Lettuce \n");  
 		int option = sc.nextInt();
 		
 		while(option == 2 || option == 3 || option ==4) {
@@ -25,6 +25,7 @@ public class MainClass {
 		
 		System.out.println(sandwich.getContents());
 		System.out.println("Total Price: "+sandwich.getPrice());
+		
 	}
 
 }
