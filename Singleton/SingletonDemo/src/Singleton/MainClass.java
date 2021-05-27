@@ -7,6 +7,11 @@ public class MainClass {
 	
 	Services service2=Services.getServices();
 	
+	Services service3=Services.getServices();
+	
+	Services service4=Services.getServices();
+	
+	
 	}
 
 }
